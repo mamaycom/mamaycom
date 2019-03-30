@@ -1,0 +1,26 @@
+.bg-header {
+    background: rgb(241, 213, 29);
+    background-image: url(bg-header.jpg) no-repeat;
+    background-image: url(bg-header.jpg), linear-gradient(160deg, rgb(237, 173, 14),white, black);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+.bg-header img {
+    width: 25%;
+}
+
+.navbar-title {
+    font-family: 'Yellowtail', cursive;
+    text-transform: lowercase;
+    text-shadow: 0 4px black;
+    font-size: 35px;
+}
+
+@media (max-width: 768px) {
+    .bg-header img {
+        width: 50%;
+    }
+}
